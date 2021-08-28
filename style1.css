@@ -1,0 +1,1106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --primary: green;
+    --dark: #232323;
+    --pure: #fff;
+    --smoke: rgb(242, 242, 242);
+    --dark-grey: rgb(130, 130, 130);
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: var(--smoke);
+    color: var(--dark-grey);
+    
+}
+h1{
+    color: var(--dark-grey);
+}
+
+.header img{
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    float: left;
+    margin: 45px 0px 0px 100px;
+    border: 0.5px solid rgb(255, 204, 0);
+}
+.header p {
+    padding: 48px 0px 0px 144px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.name {
+    text-align: center;
+}
+.name p:nth-child(1){
+    margin-top: 117px;
+    font-weight: 800;
+    font-size: 39px;
+}
+
+.name p:nth-child(2){
+    margin-top:0px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.head-outer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px ;
+    margin-bottom: -327px;
+}
+.head-img {
+    display: grid;
+    place-items: center;
+    height: 205px;
+    width: 205px;
+    background-color: rgb(255, 255, 255) ;
+    border: 3px solid rgb(255, 234, 170) ;
+    border-radius: 100%;
+    z-index: 15;
+}
+
+.head-img img {
+    height: 185px;
+    width: 185px;
+    border-radius: 100%;
+}
+
+
+.container {
+  width: 80%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 254, 200);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 205px;
+  padding-top: 117px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 11;
+}
+
+.container p:nth-child(2) {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+
+.container p {
+    text-align: left;
+    margin-left: 20%;
+    font-weight: 800;
+    margin-bottom: 270px;
+    margin-top: 68px;
+}
+
+
+.center {
+  text-align: center;
+  margin-top: 915px;
+  
+  height: auto;
+  width: auto;
+  
+  
+}
+.center2{
+    display: none;
+}
+
+.left-down {
+    text-align: left;
+    /* margin-top: 440px; */
+}
+
+.left-down p {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    margin-top:417px;
+}
+
+.line {
+    border: 0.5px solid rgb(130, 130, 130) ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 110px;
+    
+}
+
+.bottom p {
+    font-weight: 800;
+    
+}
+
+
+#share {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 2px;
+}
+.social2 {
+    /* display: flex; */
+    float: right;
+    margin: 3px 25px 3px 3px;
+}
+.social2 img {
+    margin-left: 9px;
+}
+.social3 {
+    /* display: flex; */
+    padding-bottom: 42px;
+   
+}
+.social {
+    float: right;
+    margin: 8px 25px 9px 9px;
+}
+.social h3 {
+    font-size: 34px;
+    font-weight: 600;
+   }
+
+.upper-shadow{
+    display: grid;
+    place-items: center;
+    margin-top: -20px;
+    margin : 0 10%;
+    width: 80%;
+}
+
+
+
+
+.shadow3{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 15px rgb(150, 145, 145);
+    border-radius: 15px;
+    margin-top: 10px;
+    
+}
+#out-con {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  } 
+
+
+#out-con {
+  position: relative;
+} 
+
+.sdiv1{
+ 
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: none!important;
+    box-shadow: 0px 1px 15px rgb(150, 145, 145);
+    width: 78%;
+    height: 10px;
+    z-index: 10;
+    margin-top: 731px;
+    margin-left: 11%;
+}
+ .sdiv2{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: none!important;
+    box-shadow: 0px 1px 15px rgb(150, 145, 145);
+    width: 76%;
+    height: 10px;
+    z-index: 9;
+    margin-top: 740px;
+    margin-left: 12%;
+}
+.sdiv3{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: none!important;
+    box-shadow: 0px 1px 15px rgb(150, 145, 145);
+    width: 74%;
+    height: 10px;
+    z-index: 8;
+    margin-top: 748px;
+    margin-left: 13%;
+} 
+
+.bc{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+@media screen and (min-width: 1500px) {
+
+
+    
+    .head-outer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px ;
+        margin-bottom: -410px;
+    }
+    .head-img img {
+        height: 320px;
+        width: 320px;
+        border-radius: 100%;
+    }
+    .head-img {
+        display: grid;
+        place-items: center;
+        height: 350px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        border: 3px solid rgb(255, 234, 170);
+        border-radius: 100%;
+        z-index: 15;
+    }
+    .container p {
+        text-align: left;
+        margin-left: 20%;
+        font-weight: 800;
+        margin-bottom: 445px;
+        margin-top: 227px;
+        font-size: 42px!important;
+    }
+    .social h3 {
+        font-size: 55px;
+        font-weight: 400;
+    }
+    .social2 img {
+        margin-left: 11px;
+        font-size: 35px;
+        height: 90px;
+        width: 90px;
+    }
+    .name p:nth-child(1) {
+        margin-top: 117px;
+        font-weight: 800;
+        font-size: 65px;
+    }
+
+    .header img {
+        height: 60px;
+        width: 60px;
+        border-radius: 25px;
+        float: left;
+        margin: 45px 0px 0px 100px;
+        border: 0.5px solid rgb(255, 204, 0);
+    }
+
+    .header p {
+        padding: 48px 0px 0px 182px;
+        font-size: 47px;
+        font-weight: 800;
+    }
+
+    .name p:nth-child(2) {
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 39px;
+    }
+
+    .center {
+        text-align: center;
+        margin-top: 1393px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 24px;
+    font-weight: 400;
+    }
+
+    .left-down p {
+        font-size: 43px;
+        font-weight: 800;
+        margin-left: 177px;
+        margin-bottom: 30px;
+        margin-top: 700px;
+    }
+
+    .bottom p {
+        font-weight: 400;
+        font-size: 29px;
+        margin-left: 76px;
+    }
+
+    
+}
+@media screen and (min-width: 1500px)
+{
+    .sdiv1 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 78%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 1170px!important;
+        margin-left: 11%;
+    }
+    .sdiv2 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 76%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 1190px!important;
+        margin-left: 12%;
+    }
+
+    .sdiv3 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 74%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 1210px!important;
+        margin-left: 13%;
+    }
+}
+@media screen and (min-width: 2068px) {
+
+    .head-outer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px ;
+        margin-bottom: -410px;
+    }
+    
+    .head-img img {
+        height: 320px;
+        width: 320px;
+        border-radius: 100%;
+    }
+    .head-img {
+        display: grid;
+        place-items: center;
+        height: 350px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        border: 3px solid rgb(255, 234, 170);
+        border-radius: 100%;
+        z-index: 15;
+    }
+    .container p {
+        text-align: left;
+        margin-left: 20%;
+        font-weight: 800;
+        margin-bottom: 445px;
+        margin-top: 227px;
+        font-size: 58px!important;
+    }
+    .social h3 {
+        font-size: 67px;
+        font-weight: 600;
+    }
+    .social2 img {
+        margin-left: 11px;
+        font-size: 35px;
+        height: 90px;
+        width: 90px;
+    }
+    .name p:nth-child(1) {
+        margin-top: 117px;
+        font-weight: 800;
+        font-size: 65px;
+    }
+
+    .header img {
+        height: 60px;
+        width: 60px;
+        border-radius: 25px;
+        float: left;
+        margin: 45px 0px 0px 100px;
+        border: 0.5px solid rgb(255, 204, 0);
+    }
+
+    .header p {
+        padding: 48px 0px 0px 182px;
+        font-size: 47px;
+        font-weight: 800;
+    }
+
+    .name p:nth-child(2) {
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 39px;
+    }
+
+    .center {
+        text-align: center;
+        margin-top: 1566px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 28px;
+    font-weight: 400;
+    }
+
+
+    .left-down p {
+        font-size: 43px;
+        font-weight: 800;
+        margin-left: 177px;
+        margin-bottom: 30px;
+        margin-top: 844px;
+    }
+
+    .bottom p {
+        font-weight: 400;
+        font-size: 29px;
+        margin-left: 76px;
+    }
+
+    
+
+    
+}
+
+@media screen and (min-width: 2068px)
+{
+    .sdiv1 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 78%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 1224px!important;
+        margin-left: 11%;
+    }
+    .sdiv2 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 76%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 1244px!important;
+        margin-left: 12%;
+    }
+
+    .sdiv3 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 74%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 1264px!important;
+        margin-left: 13%;
+    }
+    .center {
+        text-align: center;
+        margin-top: 1452px;
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 2056px)
+{
+    .sdiv1 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 78%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 1229px;
+        margin-left: 11%;
+    }
+    .sdiv2 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 76%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 1250px;
+        margin-left: 12%;
+    }
+
+    .sdiv3 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 74%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 1271px;
+        margin-left: 13%;
+    }
+}
+
+@media screen and (min-width: 1948px)
+{
+    .center {
+        text-align: center;
+        margin-top: 1393px;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 2076px)
+{
+    .center {
+        text-align: center;
+        margin-top: 1452px;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    .container p:nth-child(2) {
+        font-weight: 800;
+        font-size: 28px;
+    }
+    .container {
+        width: 80%;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: 3px solid rgb(255, 254, 200);
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 205px;
+        padding-top: 117px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        position: absolute;
+        z-index: 11;
+    }
+    .sdiv1 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 78%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 731px;
+        margin-left: 11%;
+    }
+    .sdiv2 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 76%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 740px;
+        margin-left: 12%;
+    }
+
+    .sdiv3 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 74%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 748px;
+        margin-left: 13%;
+    }
+
+}
+@media screen and (max-width: 676px)
+{
+    .container p:nth-child(2) {
+        font-weight: 800;
+        font-size: 21px;
+        /* margin-left */
+    }
+    .container p {
+        text-align: left;
+        margin-left: 20%;
+        font-weight: 800;
+        margin-bottom: 270px;
+        margin-top: 68px;
+    }
+}
+
+@media screen and (max-width: 516px)
+{
+    .container p:nth-child(2) {
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .container p {
+        text-align: left;
+        margin-left: 20%;
+        font-weight: 800;
+        margin-bottom: 270px;
+        margin-top: 68px;
+    }
+}
+
+@media screen and (max-width: 432px)
+{
+    .social h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-top:9px;
+    }
+}
+@media screen and (max-width: 820px)
+{
+    .container {
+        width: 96%;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: 3px solid rgb(255, 254, 200);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 205px;
+        padding-top: 117px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        position: absolute;
+        z-index: 11;
+      }
+      .container p {
+        text-align: left;
+        /* margin-left: 20%; */
+        /* margin-left: 0px; */
+        margin-left: 20px;
+        font-weight: 800;
+        margin-bottom: 270px;
+        margin-top: 68px;
+    } 
+}
+@media screen and (max-width: 996px)
+{
+   
+    .container p:nth-child(2) {
+        font-weight: 800;
+        font-size: 23px;
+    }
+    .container p {
+        text-align: left;
+        margin-left: 20%;
+        font-weight: 800;
+        margin-bottom: 270px;
+        margin-top: 68px;
+    }
+}
+@media screen and (max-width: 680px)
+{
+   
+    .container p:nth-child(2) {
+        font-weight: 800;
+        font-size: 19px;
+        margin-left: 2%;
+        /* line-height: 1.5; */
+    }
+    .container p {
+        text-align: left;
+        margin-left: 0;
+        font-weight: 800;
+        margin-bottom: 270px;
+        margin-top: 68px;
+    }
+}
+@media screen and (max-width: 464px)
+{
+   
+    .container p:nth-child(2) {
+        font-weight: 800;
+        font-size: 15px;
+    }
+    .container p {
+        text-align: left;
+        margin-left: 0;
+        font-weight: 800;
+        margin-bottom: 270px;
+        margin-top: 68px;
+    }
+}
+
+@media screen and (max-width: 996px)
+{
+    
+    
+
+    .sdiv1 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 78%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 722px;
+        margin-left: 11%;
+    }
+    .sdiv2 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 76%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 737px;
+        margin-left: 12%;
+    }
+
+    .sdiv3 {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150 145 145);
+        width: 74%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 751px;
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 820px)
+{
+    
+    
+
+    .sdiv1{
+ 
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 92%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 718px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+     .sdiv2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 88%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 731px;
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+    .sdiv3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 84%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 744px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 644px)
+{
+    
+    
+
+    .sdiv1{
+ 
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 92%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 687px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+     .sdiv2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 88%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 695px;
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+    .sdiv3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 84%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 703px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+/* @media screen and (max-width: 368px)
+{
+    .sdiv1{
+ 
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 92%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 688px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+     .sdiv2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 88%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 707px;
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+    .sdiv3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 84%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 722px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+} */
+@media screen and (max-width: 366px)
+{
+    
+    
+
+    .sdiv1{
+ 
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 92%;
+        height: 10px;
+        z-index: 10;
+        margin-top: 739px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+     .sdiv2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 88%;
+        height: 10px;
+        z-index: 9;
+        margin-top: 747px;
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+    .sdiv3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: none!important;
+        box-shadow: 0px 1px 15px rgb(150, 145, 145);
+        width: 84%;
+        height: 10px;
+        z-index: 8;
+        margin-top: 755px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 820px)
+{
+    
+    .center {
+        text-align: center;
+        margin-top: 910px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 13px;
+    font-weight: 400;
+    }
+}
+@media screen and (max-width: 632px)
+{
+    .center {
+        text-align: center;
+        margin-top: 877px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 11px;
+    font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 532px)
+{
+    .center {
+        text-align: center;
+        margin-top: 877px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 9px;
+    font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 439px)
+{
+    .center {
+        text-align: center;
+        margin-top: 877px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 6px;
+    font-weight: 800;
+    }
+}
+
+
+
+@media screen and (max-width: 436px)
+{
+    /* .center {
+        text-align: center;
+        margin-top: 1100px;
+        height: auto;
+        width: auto;
+    }
+
+    .center p {
+    font-size: 8px;
+    font-weight: 400;
+    } */
+}
+
+@media screen and (max-width: 420px){
+    .left-down p {
+        font-size: 15px!important;
+        font-weight: 800;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top:417px;
+    }
+    .bottom p{
+        font-size: 15px!important;
+        font-weight: 800;
+    }
+}
+    @media screen and (max-width: 820px){
+
+    
+        .left-down p {
+            font-size: 24px;
+            font-weight: 800;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            margin-top:417px;
+        }
+    
+        .bottom {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            
+        }
+
+        .line {
+            border: 0.5px solid rgb(130, 130, 130) ;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+    
+      
+}
+
+
+
+
+
